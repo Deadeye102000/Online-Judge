@@ -75,7 +75,7 @@ Results stored back in MongoDB
 
 - Passwords hashed with Bcrypt
 - JWT tokens used for stateless auth
-- Role-based access (`user`, `admin`) middleware
+- Role-based access (`user`, `admin`) middleware 
 
 ---
 
@@ -83,10 +83,12 @@ Results stored back in MongoDB
 
 ### 1. Clone the repository
 
-```bash
-git clone https://github.com/your-username/online-judge.git
-cd online-judge
 
+
+- "git clone https://github.com/your-username/online-judge.git'
+- "cd online-judge"
+
+---
 
 ### 2. Setup Environment Variables
 
@@ -100,7 +102,6 @@ AWS_ACCESS_KEY_ID=...
 AWS_SECRET_ACCESS_KEY=...
 AWS_REGION=...
 SQS_QUEUE_URL=...
-
 
 ### 3. Start Backend + Frontend
 
@@ -143,7 +144,7 @@ POST /api/submit
 GET /api/submissions/:id
 
 
-✨ Future Enhancements
+## ✨ Future Enhancements
 WebSocket or polling for real-time submission status
 
 Leaderboards and contests
@@ -156,12 +157,12 @@ Redis caching for problem lists
 
 
 
-📸 Screenshots
+## 📸 Screenshots
 Coming soon...
 
-🧑‍💻 Author
+## 🧑‍💻 Author
 Anany Singh
 Backend Developer | System Designer | MERN Enthusiast
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License.
